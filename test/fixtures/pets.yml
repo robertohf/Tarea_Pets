@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  born_at: 2017-05-21 05:05:43
+
+two:
+  name: MyText
+  born_at: 2017-05-21 05:05:43

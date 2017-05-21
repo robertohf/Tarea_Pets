@@ -1,0 +1,28 @@
+<h1><%= @pet.name %></h1>
+<img class="materialboxed" width="650" src="<%= @pet.avatar_url %>">
+<p>Los Datos del Pet:</p>
+<ul>
+  <li>
+    ID:
+    <strong><%= @pet.id %></strong>
+  </li>
+	<li>
+	   Descripcion:
+		<strong><%= @pet.description %></strong>
+	</li>
+	<li>
+		Fecha de Nacimiento:
+		<strong><%= @pet.born_at %></strong>
+	</li>
+</ul>
+
+
+<p>
+	<table>
+		<tr>
+      <td>
+        <%= link_to "Editar Pet", edit_pet_path(@pet), class:"btn btn-default btn-lg" %>
+			</td>
+		</tr>
+	</table>
+</p>
